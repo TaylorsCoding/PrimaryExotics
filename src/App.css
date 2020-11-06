@@ -1,0 +1,513 @@
+/* Body and Container */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app-container {
+  width: 100%;
+}
+
+/* Section 1 */
+
+#sect1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.motor1.com/images/mgl/0x2QW/s3/aston-martin-valkyrie-and-valhalla-on-track.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 300px;
+}
+
+header {
+  height: 70px;
+  font-family: "Rubik";
+}
+
+#header-navbar-desktop {
+  display: none;
+}
+
+#header-navbar-desktop li {
+  list-style-type: none;
+  display: inline;
+}
+
+#header-navbar-mobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-navbar-mobile-logo {
+  height: 40px;
+  width: 130px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#header-navbar-mobile-collapse {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#header-navbar-mobile-list {
+  display: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  background-color: rgba(28, 28, 77, 0.8);
+}
+
+#header-navbar-mobile-list li {
+  list-style-type: none;
+  opacity: 100%;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#header-navbar-desktop {
+  display: none;
+  text-align: unset;
+}
+
+#header-navbar-desktop-logo {
+  margin-top: 10px;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+}
+
+#header-navbar-desktop-list {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-listitems {
+  padding-top: 15px;
+  padding-right: 3%;
+  color: rgb(14, 14, 77);
+}
+
+#header-navbar-desktop-list-login {
+  padding: 15px;
+  border: 1px solid rgb(14, 14, 77);
+  color: rgb(14, 14, 77);
+  text-align: center;
+}
+
+#header-navbar-desktop-list-signup {
+  padding: 15px;
+  color: white;
+  text-align: center;
+  background-color: rgb(14, 14, 77);
+}
+
+#sect1-title {
+  margin-bottom: 30px;
+}
+
+#sect1-title-text {
+  font-size: 200%;
+  color: white;
+  font-family: "Montserrat";
+}
+
+#sect1-subtitle {
+  margin-bottom: 30px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+
+#sect1-buttons {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat";
+}
+
+#sect1-button1 {
+  margin-right: 25px;
+  border: 2px solid white;
+  padding: 5px;
+  width: 100px;
+}
+
+#sect1-button2 {
+  margin-left: 25px;
+  border: 2px solid white;
+  padding: 5px;
+  width: 100px;
+}
+
+/* Section 2 */
+
+#sect2 {
+  background-color: silver;
+  color: white;
+  /* display: flex; */
+  text-align: center;
+  align-items: top;
+  font-family: "Montserrat";
+}
+
+#sect2-first {
+  display: block;
+  padding-top: 40px;
+  width: 100%;
+}
+
+#sect2-first-title {
+  display: block;
+  font-size: 30px;
+}
+
+#sect2-first input,
+#sect2-first select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  color: grey;
+  border-radius: unset;
+  margin-top: 10px;
+}
+
+#sect2-first-form {
+  margin-top: 30px;
+}
+
+#sect2-first-form select,
+#sect2-first-form input {
+  height: 30px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+#sect2-second {
+  display: block;
+  width: 100%;
+  padding-top: 40px;
+}
+
+#sect2-second-title {
+  font-size: 30px;
+}
+
+#sect2-second-buttons img {
+  width: 100px;
+  height: 130px;
+}
+
+#sect2-second-buttons-r1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+#sect2-second-buttons-r2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+#sect2-second-buttons-r2 div {
+  width: 100px;
+}
+
+/* Section 3 */
+
+#sect3 {
+  background-color: rgb(37, 45, 70);
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+#sect3-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#sect3-title-text {
+  font-size: 30px;
+}
+
+.sect3-cars-col {
+  height: 200px;
+  margin-top: 20px;
+}
+
+#sect3-more {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#sect3-more a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+/* Section 4 */
+
+#sect4 {
+  background-color: silver;
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  font-family: "Montserrat";
+}
+
+#sect4-title {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+#sect4-title-text {
+  font-size: x-large;
+}
+
+#sect4-subtitle {
+  margin-bottom: 30px;
+}
+
+#sect4-process-step1,
+#sect4-process-step2,
+#sect4-process-step3,
+#sect4-process-step4 {
+  padding-bottom: 30px;
+}
+
+#sect4-process-step1-img {
+  position: relative;
+  right: 6px;
+}
+
+#sect4-process-step1-description,
+#sect4-process-step2-description,
+#sect4-process-step3-description,
+#sect4-process-step4-description {
+  margin-top: 15px;
+}
+
+#sect4-process-step1-description div,
+#sect4-process-step2-description div,
+#sect4-process-step3-description div,
+#sect4-process-step4-description div {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#sect4-process-step1-description-text,
+#sect4-process-step2-description-text,
+#sect4-process-step3-description-text,
+#sect4-process-step4-description-text {
+  font-style: italic;
+}
+
+#sect4-process-step1-description-text-here {
+  color: white;
+}
+
+#sect4-start {
+  font-size: x-large;
+  padding: 5px;
+}
+
+#sect4-start span {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+/* Section 5 */
+
+#sect5 {
+  background-color: rgb(37, 45, 70);
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  font-family: "Montserrat";
+}
+
+#sect5-first {
+  padding-top: 40px;
+}
+
+#sect5-first-title-text {
+  font-size: x-large;
+}
+
+#sect5-first-body {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#sect5-first-more {
+  margin-bottom: 50px;
+}
+
+#sect5-first-more-text {
+  padding: 6px;
+  border: 2px solid white;
+}
+
+#sect5-second-title {
+  margin-bottom: 30px;
+}
+
+#sect5-second-title-text {
+  font-size: x-large;
+}
+
+#sect5-second-form-input {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  height: 20px;
+}
+
+#sect5-second-form-submit {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background: unset;
+  border: 2px solid white;
+  color: white;
+  font-size: medium;
+  padding: 5px;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(8, 18, 49);
+  color: rgb(99, 99, 99);
+  width: 100%;
+  font-family: "Rubik";
+}
+
+#footer-search {
+  text-align: center;
+}
+
+#footer-search input {
+  background-color: darkgrey;
+  box-shadow: unset;
+  border: unset;
+  width: 80%;
+  height: 25px;
+}
+
+#footer-info {
+  width: 100%;
+  text-align: center;
+}
+
+#footer-info-nav {
+  padding-left: 5.2%;
+  padding-right: 5.2%;
+}
+
+#footer-info-nav-list {
+  list-style: none;
+  padding: unset;
+}
+
+#footer-info-nav-list-first {
+  border-left: unset;
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-listitem {
+  display: inline;
+  margin-right: 10px;
+  border-left: 1px solid darkslategray;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  #header-navbar-desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #header-navbar-mobile {
+    display: none;
+  }
+  #sect1-title-text {
+    font-size: 500%;
+  }
+  #sect2-first {
+    display: inline-block;
+    width: 50%;
+    align-items: center;
+    vertical-align: top;
+  }
+  #sect2-second {
+    display: inline-block;
+    width: 50%;
+  }
+  .sect3-cars-col {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid white;
+    margin: 20px;
+  }
+
+  #sect4-process-step1,
+  #sect4-process-step2,
+  #sect4-process-step3,
+  #sect4-process-step4 {
+    display: inline-block;
+    margin-right: 50px;
+    width: 200px;
+  }
+
+  #sect5-first {
+    display: inline-block;
+    width: 50%;
+    align-items: center;
+    vertical-align: top;
+  }
+
+  #sect5-second {
+    display: inline-block;
+    width: 50%;
+    padding-top: 40px;
+  }
+
+  #footer-search {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  #footer-search input {
+    width: 30%;
+  }
+
+  #footer-info {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+  }
+}
