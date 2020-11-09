@@ -1,0 +1,39 @@
+#footer-search {
+  text-align: center;
+}
+
+#footer-search input {
+  background-color: darkgrey;
+  box-shadow: unset;
+  border: unset;
+  width: 80%;
+  height: 25px;
+}
+
+#footer-info {
+  width: 100%;
+  text-align: center;
+}
+
+#footer-info-nav {
+  padding-left: 5.2%;
+  padding-right: 5.2%;
+}
+
+#footer-info-nav-list {
+  list-style: none;
+  padding: unset;
+}
+
+#footer-info-nav-list-first {
+  border-left: unset;
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-listitem {
+  display: inline;
+  margin-right: 10px;
+  border-left: 1px solid darkslategray;
+  padding-left: 10px;
+}

@@ -1,0 +1,22 @@
+#app-header {
+  height: 70px;
+  font-family: "Quicksand", sans-serif;
+  position: fixed;
+  width: 100%;
+  background-color: purple;
+  padding-bottom: 10px;
+  z-index: 50;
+}
+
+#app-content {
+  padding-top: 80px;
+}
+
+#app-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(8, 18, 49);
+  color: rgb(99, 99, 99);
+  width: 100%;
+  font-family: "Rubik";
+}
